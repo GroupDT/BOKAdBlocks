@@ -34,10 +34,9 @@ The search advert has 3 inputs:
     2    Add ID               10      int(5)
     3    YouTube Embed URL    10      URL to Embedded Video (with flags)
 
-    ### YouTube Flags
-    To flag video so that it has certain attributes, you will need to add these to the embedded URL :-
+    YouTube Flags - To flag video so that it has certain attributes, you will need to add these to the embedded URL :-
   
-      Flag Name       Flag Key    Flag Values   Example
-      Related Videos  rel         0 or 1        rel=0
-      Auto Hide Menu  autohide    0 or 1        autohide=1
-      Auto Play       autoplay    0 or 1        autoplay=0
+    Flag Name       Flag Key    Flag Values   Example
+    Related Videos  rel         0 or 1        rel=0
+    Auto Hide Menu  autohide    0 or 1        autohide=1
+    Auto Play       autoplay    0 or 1        autoplay=0
