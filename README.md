@@ -1,5 +1,7 @@
-# BOKAdBlocks
-Advert Blocks for BOK Advertising Platform
+# BOK Ad Blocks
+For integration with GA & GTM a number of standardised code snippets have been produced to be slotted into the BOK advertising platform.
+
+The blocks take a number of standard inputs, such as: AddID, PromotionID, Image Filename, and peripheral parameters such as: background colours, and video URLs.
 
 ## Aisle Block
 The aisle block has 4 inputs:
