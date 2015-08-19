@@ -40,3 +40,19 @@ The search advert has 3 inputs:
     Related Videos  rel         0 or 1        rel=0
     Auto Hide Menu  autohide    0 or 1        autohide=1
     Auto Play       autoplay    0 or 1        autoplay=0
+
+Note: the Google Tagmanager does not currently track video plays.  These statistics should be gathered from YouTube channel analytics.
+
+## Changelog
+
+#### New Features
+
+    1, Video Features in Shop-in-Shop
+    2, Improved SIS Tracking
+
+#### Next Developments
+
+    1, Google Tag Manager Tracking of Embedded Video Interactions
+        ->  http://www.optimizesmart.com/youtube-video-tracking-via-google-tag-manager/
+        ->  http://www.cardinalpath.com/youtube-video-tracking-with-gtm-and-ua-a-step-by-step-guide/
+    2, Mouse-Hover Tracking, without Conversion Click
