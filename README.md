@@ -23,14 +23,14 @@ The search advert has 4 inputs:
     3    Add ID               8       int(5)
     4    Graphic Filename     18      File Path & Filename
 
-#### Shop in Shop Block [Standard]
+#### Shop-in-Shop Block [Standard]
 The search advert has 2 inputs:
 
     ID   Input Type           Line    Input Type
     1    Graphic Filename     7       File Path & Filename
     2    Add ID               7       int(5)
 
-#### Shop in Shop Block [Video Feature]
+#### Shop-in-Shop Block [Video Feature]
 The search advert has 3 inputs:
 
     ID   Input Type           Line    Input Type
@@ -55,7 +55,7 @@ Bespoke JavaScript snippets are included in this repository, but are not needed 
 #### New Features
 
     1, Video Features in Shop-in-Shop
-    2, Improved SIS Tracking
+    2, Improved Shop-in-Shop Tracking
 
 #### Next Developments
 
