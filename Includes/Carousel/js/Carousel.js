@@ -1,5 +1,5 @@
-
     slide_id=0;
+    
     
     $(document).ready(function () {
 
@@ -25,7 +25,7 @@
             zinx = zinx + 50;
             
             // If slide at end, then restart
-            if (slide_id == 4) { slide_id = 0; }
+            if (slide_id == slides.length) { slide_id = 0; }
             
             // Set selected slide to top
             slides[slide_id].style.zIndex = zinx;
