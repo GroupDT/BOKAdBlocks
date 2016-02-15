@@ -1,7 +1,6 @@
 
 
-<div id="carousel" class="carousel">
-
+<div id="carousel" class="carousel" data-status="1" data-active-slide="1">
 
 
     <!-- SLIDE #1 -->
@@ -25,6 +24,13 @@
             
         </div>
     <!-- -->
-    
-    
+
+
+
+    <!-- Controls -->
+        <ul class="crs-controls">
+            <a href="#pause-carousel" id="carousel-pause" onclick="change_carousel_status(0)">PAUSE</a>
+            <a href="#play-carousel" id="carousel-play" onclick="change_carousel_status(1)">PLAY</a>
+        </ul>
+
 </div>
