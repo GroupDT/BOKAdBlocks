@@ -1,4 +1,5 @@
-
+    
+    .carousel, .carousel > .crs-slide, .carousel > .crs-slide > div { box-sizing:border-box; }
     
     .carousel { 
         width:595px; max-width:595px; height:220px; max-height:220px; 
@@ -9,7 +10,7 @@
         -webkit-border-radius:5px;        
     }
     
-    .carousel > .crs-slide { width:595px; height:220px; display:block; z-index:10000; position:absolute; }
+    .carousel > .crs-slide { width:595px; height:220px; display:block; z-index:1; position:absolute; }
     
     .carousel > .crs-slide > div { padding:0.5rem; }
     .carousel > .crs-slide > img,
@@ -35,4 +36,3 @@
     .carousel > .crs-button-right { right:0; }
     
     .crs-off { display:none; visibility:hidden; opacity:0; }
-    
