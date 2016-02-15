@@ -1,24 +1,35 @@
-    slide_id=0;
-    
-    
     $(document).ready(function () {
+        
+        //var slides = document.querySelectorAll("#carousel > div");    // Only works on new browsers
+        var carousel = document.getElementById('carousel');
+        var nodes    = carousel.childNodes;
+        var slides   = [];
+        var zinx     = 0;
+        var slide_id = 0;
 
-        zinx = 0;
-        
-        var slides = document.querySelectorAll("#carousel > div");
-        
-        for (var i = 0; i<slides.length; i++) {
-            x = zinx + (i * 3);
-            slides[i].style.zIndex = x;
+        for (var i = 0; i<nodes.length; i++) {
+           
+            // If the element is a division then action
+            if (nodes[i].nodeName == "DIV") {
+                                
+                // Action slide
+                x = zinx + (i * 3);
+                nodes[i].style.zIndex = x;
+                
+                // Add element into slides array
+                slides.push(nodes[i]);
+            }
+            
         }
-    
-    
+        
+        // Reset variables
         slide_id = 0;
         zinx = 100;
         
+        // Kick off loop
         setInterval(transition_slide, 5000);
         
-        
+        // Transition function
         function transition_slide () {
             
             // Increment zinx
