@@ -1,3 +1,5 @@
+
+    
     .carousel, .carousel > .crs-slide, .carousel > .crs-slide > div { box-sizing:border-box; }
     
     .carousel { 
@@ -59,4 +61,4 @@
     }
     #carousel-play { display:none; }
     
-    h1.title-1 { margin:0; margin-bottom:10px; font-weight:normal; font-size:25px; }
+    h1.title-h1 { margin:0; margin-bottom:15px; font-weight:normal; font-size:25px; }
