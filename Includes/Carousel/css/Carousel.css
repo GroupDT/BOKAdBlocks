@@ -58,3 +58,5 @@
         border-radius:3px;
     }
     #carousel-play { display:none; }
+    
+    h1.title-1 { margin:0; margin-bottom:10px; font-weight:normal; font-size:25px; }
