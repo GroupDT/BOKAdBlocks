@@ -1,4 +1,4 @@
-    
+
     $(document).ready(function () {
     	
     	//var slides = document.querySelectorAll("#carousel > div");    // Only works on new browsers
@@ -29,7 +29,7 @@
         caroucel_zinx = 10000;
         
         // Kick off loop
-        setInterval(transition_slide, 5000);
+        setInterval(transition_slide, 6000);
         
         // Transition function
         function transition_slide () {
