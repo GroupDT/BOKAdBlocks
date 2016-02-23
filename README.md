@@ -47,8 +47,8 @@ The search advert has 3 inputs:
 
 Note: the Google Tagmanager does not currently track video plays.  These statistics should be gathered from YouTube channel analytics.
 
-## GTM/variables/js
-Bespoke JavaScript snippets are included in this repository, but are not needed when implementing the advert code into the website.  These snippets are for the back-end GTM configuration only.
+## The "Backend" Directory
+Bespoke JavaScript snippets and formatting files are included in this repository, but are not needed when implementing the advert code into the website.  These snippets are for the back-end GTM configuration only.
 
 ## Changelog
 
