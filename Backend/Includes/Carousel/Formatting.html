@@ -162,13 +162,34 @@
 <script> 
     
     
+    /**
+     * Fix Booker menu being below the carousel
+     * in Internet Explorer
+     */
+    $("#tabmenu > li > ul").css("z-index", "3000000");
+    
+    
+    
+    /**
+     * Carousel functionality main functions
+     */
+     
+    
     $(document).ready(function () {
+        if ($('#carousel').length) {
+            CarouselInit();
+        }
+    });
+    
+    
+    
+    function CarouselInit () {
         
         //var slides = document.querySelectorAll("#carousel > div");    // Only works on new browsers
         var carousel = document.getElementById('carousel');
         var carousel_nodes    = carousel.childNodes;
         var carousel_slides   = [];
-        var caroucel_zinx     = 5000;
+        var caroucel_zinx     = 3600;
         var carousel_slide_id = 0;
         
         // Put all slides into order
@@ -192,7 +213,7 @@
         caroucel_zinx = 10000;
         
         // Kick off loop
-        setInterval(transition_slide, 6000);
+        setInterval(transition_slide, 4000);
         
         // Transition function
         function transition_slide () {
@@ -217,7 +238,7 @@
             carousel_slide_id = (parseInt(carousel_slide_id) + 1);
         }
         
-    });
+    }
     
     // Pause/Play carousel
     function change_carousel_status (status) {
